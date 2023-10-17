@@ -6,3 +6,17 @@ h1 {
     font-size: large;
     color: aquamarine;
 }
+
+img {
+    width: 40vw;
+    height: 100vh;
+}
+
+.left-container {
+    display: flex;
+}
+
+img[src="logo.png"] {
+    width: 100px;
+    height: 100px;
+}
