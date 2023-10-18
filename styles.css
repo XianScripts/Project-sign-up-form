@@ -1,6 +1,10 @@
 * {
     box-sizing: border-box;
 }
+@font-face {
+    font-family: "Norse-Bold";
+    src: url(Norse-Bold.otf);
+}
 
 h1 {
     font-size: large;
@@ -10,13 +14,35 @@ h1 {
 img {
     width: 40vw;
     height: 100vh;
+    position: absolute;
 }
 
 .left-container {
     display: flex;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
 img[src="logo.png"] {
     width: 100px;
-    height: 100px;
+    height: 125px;
+    /* position: absolute; */
+    left: 13%;
+    top: 27%;
+    
 }
+
+.backsplash {
+    background-color: black;
+    position: relative;
+    top: 150%;
+    width: 40vw;
+    height: 10rem;
+    opacity: .35;
+
+}
+
+
