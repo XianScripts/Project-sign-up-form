@@ -5,11 +5,15 @@
     font-family: "Norse-Bold";
     src: url(Norse-Bold.otf);
 }
-
-h1 {
-    font-size: large;
-    color: aquamarine;
+.odin {
+    font-family: "Norse-Bold";
+    position: absolute;
+    font-size: 6rem;
+    left: 20%;
+    top: 23%;
+    color: white;
 }
+
 
 img {
     width: 40vw;
