@@ -73,10 +73,19 @@ img[src="logo.png"] {
 
 /* Right page inputs/buttons */
 
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15vh;
+    font-size: 2rem;
+    margin-left: 2vw;
+
+
+}
 .right-container {
     flex: 1;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -89,9 +98,8 @@ img[src="logo.png"] {
     margin-left: 50px;
 }
 .intro1 {
-    position: relative;
-    right: 180px;
-
+    display: flex;
+    margin-top: 4vh;
 
 }
 .intro2 {
@@ -107,33 +115,53 @@ img[src="logo.png"] {
 
 
 /* Inputs  */
+
+/* Input header */
+.form-header {
+    position: relative;
+    bottom: 50px;  
+    font-size: 1.6rem;
+    margin-left: 3rem;
+}
 .input-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    margin-top: 10vh;
     width: 60vw;
-    height: 25vh;
+    height: 30vh;
     border: solid .2px white;
     background-color: rgb(255, 255, 255);
     box-shadow: 1px 2px 3px 1px rgba(20,20,20,0.4);
     
 }
-.input-container:nth-child(1) {
-    align-self: flex-start;
-    justify-self: flex-start;
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 3rem;
+
+    gap: 5vw;
+
 }
 
-/* Input header */
-.form-header {
-    font-size: 1.6rem;
+.left-column, .right-column {
+    display: flex;
+    flex-direction: column;
 }
+
+
 
 /* left input columns */
-.left-column {
-    display: flex;
-    align-items: flex-start
+.left-column label, .right-column label {
+    margin-bottom: 5px;
 }
 
+.left-column input, .right-column input {
+    margin-bottom: 10px;
+}
 
 
 
