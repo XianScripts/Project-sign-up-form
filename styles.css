@@ -5,58 +5,35 @@
 #page {
     display: flex;
     justify-content: flex-start;
-
-}
-/* Left page banner and text */
-@font-face {
-    font-family: "Norse-Bold";
-    src: url(Norse-Bold.otf);
-}
-.odin {
-    font-family: "Norse-Bold";
-    position: absolute;
-    font-size: 7rem;
-    left: 20%;
-    top: 26%;
-    color: white;
-}
-
-.credit {
-    position: absolute;
-    left: 13%;
-    bottom: 1.5%;
-    color: white;
-}
-
-a:link {
-    color: white;
-}
-
-
-img {
-    width: 40vw;
-    height: 100vh;
-    position: absolute;
+    align-items: stretch; /* Make the right container take up the full height of the left container. */
 }
 
 .left-container {
+    flex: 1; /* Make the left container take up 50% of the available space. */
+    position: relative;
+}
 
+.image {
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    height: 100vh;
+    display: block;
 }
 
 .logo {
     display: flex;
+    height: 50px;
+    width: 50px;
+    flex-direction: column;
     align-items: center;
-}
+    position: absolute;
+    bottom: 500px;
+    left: 20px;
 
-img[src="logo.png"] {
-    width: 100px;
-    height: 125px;
-    /* position: absolute; */
-    left: 13%;
-    top: 25.5%;
-    
 }
-
 .backsplash {
     background-color: black;
     position: absolute;
@@ -67,36 +44,35 @@ img[src="logo.png"] {
 
 }
 
-
 /* Right page inputs/buttons */
 
 .right-container {
+    flex: 1; /* Make the right container take up 50% of the available space. */
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column; /* Stack the content vertically. */
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    padding: 20px;
 }
 
 .intro1, .intro2 {
-    padding-top: 170px;
-    padding-bottom: 100px;
+    text-align: center; /* Center the text. */
     font-weight: bolder;
     font-size: 1.6rem;
-    margin-left: 50px;
-}
-.intro1 {
-    position: relative;
-    right: 180px;
-
-
-}
-.intro2 {
-    position: relative;
-    right: 610px;
-    bottom: 240px;    
+    margin-bottom: 20px;
 }
 
+.input-container {
+    text-align: center; /* Center the form inputs. */
+}
 
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Add additional styles as needed. */
 
 
 
