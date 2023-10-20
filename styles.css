@@ -40,7 +40,7 @@ img {
 }
 
 .left-container {
-
+    flex: 1;
 }
 
 .logo {
@@ -71,6 +71,7 @@ img[src="logo.png"] {
 /* Right page inputs/buttons */
 
 .right-container {
+    flex: 1;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -91,12 +92,15 @@ img[src="logo.png"] {
 
 }
 .intro2 {
-    position: relative;
-    right: 610px;
-    bottom: 240px;    
+    position: relative; 
+    left: 50px;  
 }
 
-
+.entice {
+    margin-bottom: 10px;
+    margin-top: 32px;
+    
+}
 
 
 
