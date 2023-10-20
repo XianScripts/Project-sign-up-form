@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+body {
+    background-color: rgb(247, 245, 245);
+}
 
 #page {
     display: flex;
@@ -103,7 +106,31 @@ img[src="logo.png"] {
 }
 
 
+/* Inputs  */
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: 25vh;
+    border: solid .2px white;
+    
+}
+.input-container:nth-child(1) {
+    align-self: flex-start;
+    justify-self: flex-start;
+}
 
+/* Input header */
+.form-header {
+    font-size: 1.6rem;
+}
+
+/* left input columns */
+.left-column {
+    display: flex;
+    align-items: flex-start
+}
 
 
 
