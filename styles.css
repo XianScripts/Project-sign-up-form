@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
+    
 }
 body {
     background-color: rgb(247, 245, 245);
-}
+    font-weight: 600;
+    }
 
 #page {
     display: flex;
@@ -76,10 +78,11 @@ img[src="logo.png"] {
 .intro-text {
     display: flex;
     flex-direction: column;
-    margin-top: 15vh;
+    margin-top: 20vh;
     font-size: 2rem;
     margin-left: 2vw;
-
+    font-weight: 550;
+    line-height: 1.1;
 
 }
 .right-container {
@@ -127,9 +130,9 @@ img[src="logo.png"] {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 10vh;
+    margin-top: 7vh;
     width: 60vw;
-    height: 30vh;
+    height: 25vh;
     border: solid .2px white;
     background-color: rgb(255, 255, 255);
     box-shadow: 1px 2px 3px 1px rgba(20,20,20,0.4);
@@ -147,9 +150,19 @@ img[src="logo.png"] {
 
 }
 
+h2 {
+    margin-bottom: 5px;
+
+}
+
 .left-column, .right-column {
     display: flex;
     flex-direction: column;
+}
+.entice-space {
+    margin-top: 30px;
+
+    
 }
 
 
