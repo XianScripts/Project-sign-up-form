@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 </head>
 <body>
 
@@ -35,19 +36,19 @@
                     <h3 class="form-header">Let's do this!</h3>
                     <div class="flex-container">
                         <div class="left-column">
-                            <label for="fname">FIRST NAME</label>
+                            <label class="linput" for="fname">FIRST NAME</label>
                             <input type="text" name="fname" id="fname">
-                            <label for="email">EMAIL</label>
+                            <label class="linput" for="email">EMAIL</label>
                             <input type="email" name="email" id="email">
-                            <label for="password1">PASSWORD</label>
+                            <label class="linput" for="password1">PASSWORD</label>
                             <input type="password" name="password1" id="password1">
                         </div>
                         <div class="right-column">
-                            <label for="lname">LAST NAME</label>
+                            <label class="linput" for="lname">LAST NAME</label>
                             <input type="text" name="lname" id="lname">
-                            <label for="tel">PHONE NUMBER</label>
+                            <label class="linput" for="tel">PHONE NUMBER</label>
                             <input type="tel" name="tel" id="tel">
-                            <label for="confirmPass">CONFIRM PASSWORD</label>
+                            <label class="linput" for="confirmPass">CONFIRM PASSWORD</label>
                             <input type="password" name="confirmPass" id="confirmPass">
                         </div>
                     </div>
@@ -56,6 +57,13 @@
         </div>
     </div>
 
+    <script>
+        const head = document.querySelector('.form-header');
+        head.addEventListener('click', () => {
+            console.log('Testing!')
+        })
+
+    </script>
 
 </body>
 </html>
