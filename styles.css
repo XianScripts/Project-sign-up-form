@@ -163,8 +163,6 @@ h2 {
 }
 .entice-space {
     margin-top: 30px;
-
-    
 }
 
 
@@ -201,6 +199,7 @@ input {
     font-weight: 800;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 20px;
+    color: #565252;
 }
 
 
@@ -210,8 +209,8 @@ input {
     position: relative;
     top: 120px;
     left: 48px;
-
     
+        
 }
 .accountButton {
     width: 11vw;
@@ -222,9 +221,22 @@ input {
     background-color: rgb(232, 21, 21);
     font-size: larger;
     border-radius: 8px;
-
+    box-shadow: 3px 5px 10px 0px rgba(0,0,0,0.37);
 }
 
+/* Existing account */
+.existingAccount {
+    position: relative;
+    top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 550;
+}
+.login {
+    color: rgb(232, 21, 21);
+    text-decoration: none;
+
+}
 
 
 
