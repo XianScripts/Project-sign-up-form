@@ -83,7 +83,7 @@ img[src="logo.png"] {
     margin-left: 2vw;
     font-weight: 550;
     line-height: 1.1;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 .right-container {
     flex: 1;
@@ -126,6 +126,7 @@ img[src="logo.png"] {
     font-size: 1.6rem;
     font-weight: 600;
     margin-left: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .input-container {
     display: flex;
@@ -181,17 +182,25 @@ h2 {
 
 /* Inputs */
 input {
-    border: 1px soild #cdd9c3;
+    border: 1px solid #E5E7EB;
+    box-shadow: 0 0 3px #E5E7EB;
     border-radius: 3px;
- 
-    width: 12vw;
+    width: 13vw;
     height: 2.1vh;
+    font-size: larger;
+  }
 
-}
+  input:focus {
+    outline: none;
+    border-color: #C4C4C4;
+  }
+
 /* Labels */
 .linput {
     font-size: smaller;
     font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
 }
 
 
