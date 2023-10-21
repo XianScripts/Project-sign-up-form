@@ -122,7 +122,7 @@ img[src="logo.png"] {
 /* Input header */
 .form-header {
     position: relative;
-    bottom: 50px;  
+    bottom: 1px;  
     font-size: 1.6rem;
     font-weight: 600;
     margin-left: 3rem;
@@ -203,6 +203,27 @@ input {
     margin-top: 20px;
 }
 
+
+/* Create account button */
+/* Reddish background, white text */
+.createaccount {
+    position: relative;
+    top: 120px;
+    left: 48px;
+
+    
+}
+.accountButton {
+    width: 11vw;
+    height: 3.9vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(232, 21, 21);
+    font-size: larger;
+    border-radius: 8px;
+
+}
 
 
 
