@@ -59,7 +59,6 @@ img[src="logo.png"] {
     /* position: absolute; */
     left: 13%;
     top: 25.5%;
-    
 }
 
 .backsplash {
@@ -69,7 +68,6 @@ img[src="logo.png"] {
     height: 10rem;
     opacity: .35;
     top: 24%;
-
 }
 
 
@@ -122,7 +120,7 @@ img[src="logo.png"] {
 /* Input header */
 .form-header {
     position: relative;
-    bottom: 1px;  
+    bottom: -5px;  
     font-size: 1.6rem;
     font-weight: 600;
     margin-left: 3rem;
@@ -134,7 +132,9 @@ img[src="logo.png"] {
     align-items: center;
     margin-top: 7vh;
     width: 60vw;
-    height: 25vh;
+    height: 30vh;
+    padding-top: 20px;
+    
     border: solid .2px white;
     background-color: rgb(255, 255, 255);
     box-shadow: 1px 2px 3px 1px rgba(20,20,20,0.4);
@@ -210,7 +210,6 @@ input {
     top: 120px;
     left: 48px;
     
-        
 }
 .accountButton {
     width: 11vw;
@@ -227,7 +226,7 @@ input {
 /* Existing account */
 .existingAccount {
     position: relative;
-    top: 50px;
+    top: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     font-weight: 550;
@@ -237,8 +236,6 @@ input {
     text-decoration: none;
 
 }
-
-
 
 
 
