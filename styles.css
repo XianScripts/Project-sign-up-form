@@ -134,7 +134,7 @@ img[src="logo.png"] {
     width: 60vw;
     height: 30vh;
     padding-top: 20px;
-    
+
     border: solid .2px white;
     background-color: rgb(255, 255, 255);
     box-shadow: 1px 2px 3px 1px rgba(20,20,20,0.4);
@@ -190,7 +190,8 @@ input {
 
   input:focus {
     outline: none;
-    border-color: #C4C4C4;
+    border-color: #3993ec;
+    box-shadow: 3px 5px 10px 0px rgba(0,0,0,0.37);
   }
 
 /* Labels */
@@ -201,6 +202,12 @@ input {
     margin-top: 20px;
     color: #565252;
 }
+
+/* Password Inputs error handling */
+input[type="password"]:focus {
+    border-color: #f31616;
+}
+
 
 
 /* Create account button */
