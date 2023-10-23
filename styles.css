@@ -2,6 +2,10 @@
     box-sizing: border-box;
     
 }
+:root {
+    --pass-error-border: red
+}
+
 body {
     background-color: rgb(247, 245, 245);
     font-weight: 600;
@@ -184,7 +188,7 @@ input {
     box-shadow: 0 0 3px #E5E7EB;
     border-radius: 3px;
     width: 13vw;
-    height: 2.1vh;
+    min-height: 2.1vh;
     font-size: larger;
   }
 
@@ -207,6 +211,8 @@ input {
 input[type="password"]:focus {
     border-color: #f31616;
 }
+
+/* JS error class for password mismatch */
 
 
 
